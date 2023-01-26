@@ -6,6 +6,6 @@
 </head>
 <body>
     <h1>Praca z tekstem</h1>
-    <p th:inline="text">Twoje imię: [[${firstName}]]</p>
+    <p th:text="|Twoje imię: ${firstName} ${lastName}|">Twoje imię: Hah</p>
 </body>
 </html>

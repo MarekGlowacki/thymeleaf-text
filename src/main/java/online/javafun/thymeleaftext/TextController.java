@@ -9,7 +9,8 @@ public class TextController {
 
     @GetMapping("/")
     String home(Model model) {
-        model.addAttribute("firstName", "Zenek");
+        model.addAttribute("firstName", "Jasiek");
+        model.addAttribute("lastName", "Janowski");
         return "index";
     }
 }
